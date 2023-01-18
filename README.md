@@ -1,4 +1,4 @@
-##InternshipMatcher_NESTJS_gRPC_AUTH
+## InternshipMatcher_NESTJS_gRPC_AUTH
 
 Authentication service for the InternshipMatcher project
 
