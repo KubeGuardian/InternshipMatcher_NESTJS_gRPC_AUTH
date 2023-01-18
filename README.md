@@ -1,4 +1,4 @@
-NestJS | Microservices | gRPC | API Gateway | seperate databases
+NestJS | Microservices | gRPC | API Gateway | Docker | seperate databases
 
 Authentication service for the InternshipMatcher project
 
