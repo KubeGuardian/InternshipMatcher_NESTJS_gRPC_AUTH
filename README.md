@@ -19,9 +19,9 @@ you can find the rest of the services here:
 
 [https://github.com/Souha-LOULOU/InternshipMatcher_NESTJS_gRPC_OFFER](https://github.com/Souha-LOULOU/InternshipMatcher_NESTJS_gRPC_OFFER) :Offer microservice
 
-[https://github.com/Mouhib-hero/InternshipMatcher_NESTJS_API_Gateway](https://github.com/Mouhib-hero/InternshipMatcher_NESTJS_API_Gateway) :API Gateway
+[https://github.com/Mouhib-hero/InternshipMatcher_NESTJS_API_Gateway](https://github.com/Mouhib-hero/InternshipMatcher_NESTJS_API_Gateway) :API Gateway and Docker compose file
 
-[https://github.com/ayadi-mohamed/grpc-nest-proto](https://github.com/ayadi-mohamed/grpc-nest-proto) :Shared Proto files and Docker compose file
+[https://github.com/ayadi-mohamed/grpc-nest-proto](https://github.com/ayadi-mohamed/grpc-nest-proto) :Shared Proto files
 
 
 ## Microservices Design
