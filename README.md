@@ -5,7 +5,7 @@ Authentication service for the InternshipMatcher project
 NestJS | Microservices | gRPC | API Gateway | Docker | seperate databases
 
 ## Description
-InternshipMatcher is a web application backend that matches students with copmanies offering end of studies internships
+InternshipMatcher is a web application backend that matches students with companies offering end of studies internships
 
 Key words: NestJS , Microservices , gRPC , API Gateway , seperate databases.
 
