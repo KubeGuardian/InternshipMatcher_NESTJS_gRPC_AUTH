@@ -7,7 +7,8 @@ import { HttpExceptionFilter } from './auth/filter/http-exception.filter';
 import { protobufPackage } from './auth/auth.pb';
 
 async function bootstrap() {
-  const app: INestMicroservice = await NestFactory.createMicroservice(AppModule, {
+  const app = await NestFactory.create(AppModule);
+  const microservice: INestMicroservice = app.connectMicroservice({
     transport: Transport.GRPC,
     options: {
       url: '0.0.0.0:50051',
@@ -18,8 +19,9 @@ async function bootstrap() {
 
   app.useGlobalFilters(new HttpExceptionFilter());
   app.useGlobalPipes(new ValidationPipe({ whitelist: true, transform: true }));
-
-  await app.listen();
+  
+  await app.startAllMicroservices();
+  await app.listen(3001);
 }
 
 bootstrap();

@@ -5,7 +5,7 @@ import { JwtService } from './jwt.service';
 import { RegisterRequestDto, LoginRequestDto, ValidateRequestDto } from '../auth.dto';
 import { Auth } from '../auth.entity';
 import { LoginResponse, RegisterResponse, ValidateResponse } from '../auth.pb';
-import { decode } from 'punycode';
+
 
 @Injectable()
 export class AuthService {
